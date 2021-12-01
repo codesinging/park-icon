@@ -4,13 +4,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "create": "gulp build"
   },
   "dependencies": {
     "vue": "^3.2.16"
   },
   "devDependencies": {
+    "@icon-park/svg": "^1.3.5",
     "@vitejs/plugin-vue": "^1.9.3",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
     "vite": "^2.6.4"
   }
 }
