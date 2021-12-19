@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# ParkIcon
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+The vue3 icon component based on IconPark.
 
-## Recommended IDE Setup
+## Usage
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+```vue
+<park-icon name="Add" size="96" color="red"></park-icon>
+<park-icon name="Wechat" size="48"></park-icon>
+```
+
+## Icons
+
+Please see https://iconpark.oceanengine.com/home
